@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   
+  get 'shop/index'
+
   root 'pages#home'
   
   get 'pages/home'
